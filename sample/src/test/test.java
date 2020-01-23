@@ -21,7 +21,7 @@ public class test {
 		WebElement password = driver.findElement(By.id("password"));
 		password.sendKeys("12345678");
 		//password changed
-		/*WebElement forgot= driver.findElement(By.linkText("Forgot password"));
+		WebElement forgot= driver.findElement(By.linkText("Forgot password"));
 		forgot.click();
 		WebElement name = driver.findElement(By.id("name"));
 		name.sendKeys("jana");
@@ -32,8 +32,7 @@ public class test {
 		WebElement Backbutton = driver.findElement(By.className("btn btn-light-grey go-back"));
 		Backbutton.click();
 		Username.clear();
-		password.clear();*/
-		
+		password.clear();
 		WebElement Checkbox = driver.findElement(By.className("icheckbox_minimal-grey"));
 		Checkbox.click();
 		WebElement Loginbutton = driver.findElement(By.id("btnLogin"));
